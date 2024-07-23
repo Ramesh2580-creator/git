@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Porfolio</title>
+    <style>
+      .header {
+        display: flex;
+        border: 5px solid rgb(232, 227, 227);
+        background: whitesmoke;
+        gap: 10px;
+        justify-content: flex-end;
+        color: black;
+        margin: 5px;
+        padding: 5px;
+        font-size: large;
+        margin-top: auto;
+      }
+      .img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50%;
+        /*position: absolute;*/
+        animation: bounce 1s infinite alternate;
+      }
+      @keyframes bounce {
+        from {
+          transform: translateY(0);
+        }
+        to {
+          transform: translateY(-100px);
+        }
+      }
+      .Home {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        font-size: large;
+      }
+      .down {
+        display: flex;
+        justify-content: space-around;
+        border-radius: 50%;
+        animation: bounce 1s infinite alternate;
+      }
+      @keyframes bounce {
+        from {
+          transform: translateY(0);
+        }
+        to {
+          transform: translateY(-100px);
+        }
+      }
+      .down1 {
+        margin-left: 30px;
+        margin-right: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div>Home</div>
+      <div>About</div>
+      <div>Contact</div>
+    </div>
+    <br />
+    <br />
+    <img class="img" src="download.jpeg" alt="download" style="width: 200px" />
+    <div class="Home">
+      <div><b> Home </b></div>
+      <div><b>Skill</b></div>
+      <div><b>About</b></div>
+    </div>
+    <br />
+    <br />
+    <div class="down">
+      <img src="download.jpeg" alt="download" style="width: 200px" />
+      <img src="download.jpeg" alt="download" style="width: 200px" />
+      <img src="download.jpeg" alt="download" style="width: 200px" />
+    </div>
+    <br />
+    <br />
+    <br />
+
+    <div class="down1">
+      <div><b>Skill</b></div>
+      <div>Html 5</div>
+      <div>Css 3</div>
+      <div>Bootstrap</div>
+      <div>Tailwind css</div>
+    </div>
+  </body>
+</html>
